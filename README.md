@@ -1,1 +1,0 @@
-# Detecting-and-Generating-ArUco-markers
