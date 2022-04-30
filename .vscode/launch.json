@@ -18,7 +18,7 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/Generating ArUco markers/opencv_generate_aruco.py",
-            "args": ["--id", "24", "--type", "DICT_5X5_100", "--output", "C:/Users/OferSh.FP/Desktop/foo/24.png"],
+            "args": ["--id", "128", "--type", "DICT_4X4_1000", "--output", "C:/Users/OferSh.FP/Desktop/Detecting-and-Generating-ArUco-markers/24.png"],
             "console": "integratedTerminal",
             "justMyCode": true
         },
@@ -27,7 +27,7 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/Detecting ArUco markers/detect_aruco_image.py",
-            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\foo\\ArUco-markers-with-OpenCV-and-Python\\Detecting ArUco markers\\images\\example_03.png", "--type", "DICT_4X4_1000"],
+            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\Detecting-and-Generating-ArUco-markers\\Detecting ArUco markers\\images\\example_03.png", "--type", "DICT_4X4_1000"],
             "console": "integratedTerminal",
             "justMyCode": true
         },
@@ -45,7 +45,7 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/Determining ArUco marker/guess_aruco_type.py",
-            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\foo\\ArUco-markers-with-OpenCV-and-Python\\Determining ArUco marker\\images\\example_03.png",],
+            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\Detecting-and-Generating-ArUco-markers\\Determining ArUco marker\\images\\example_03.png",],
             "console": "integratedTerminal",
             "justMyCode": true
         },
