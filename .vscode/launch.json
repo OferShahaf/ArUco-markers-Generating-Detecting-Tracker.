@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--type", "DICT_4X4_1000"],
+            "justMyCode": true
+        },
+        {
+            "name": "Generate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Generating ArUco markers/opencv_generate_aruco.py",
+            "args": ["--id", "24", "--type", "DICT_5X5_100", "--output", "C:/Users/OferSh.FP/Desktop/foo/24.png"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Detect",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Detecting ArUco markers/detect_aruco_image.py",
+            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\foo\\ArUco-markers-with-OpenCV-and-Python\\Detecting ArUco markers\\images\\example_03.png", "--type", "DICT_4X4_1000"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Detect vedeo",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Detecting ArUco markers/detect_aruco_video.py",
+            "args": ["--type", "DICT_4X4_1000"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Detect guess",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Determining ArUco marker/guess_aruco_type.py",
+            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\foo\\ArUco-markers-with-OpenCV-and-Python\\Determining ArUco marker\\images\\example_03.png",],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+    ]
+}
