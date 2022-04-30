@@ -39,6 +39,32 @@
             "args": ["--type", "DICT_4X4_1000"],
             "console": "integratedTerminal",
             "justMyCode": true
+        },{
+            "name": "Generate linux",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Generating ArUco markers/opencv_generate_aruco.py",
+            "args": ["--id", "128", "--type", "DICT_4X4_1000", "--output", "/home/flying/24.png"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Detect linux",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Detecting ArUco markers/detect_aruco_image.py",
+            "args": ["--image", "C:\\Users\\OferSh.FP\\Desktop\\Detecting-and-Generating-ArUco-markers\\Detecting ArUco markers\\images\\example_03.png", "--type", "DICT_4X4_1000"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Detect vedeo linux",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Detecting ArUco markers/detect_aruco_video.py",
+            "args": ["--type", "DICT_4X4_1000"],
+            "console": "integratedTerminal",
+            "justMyCode": true
         },
         {
             "name": "Detect guess",
