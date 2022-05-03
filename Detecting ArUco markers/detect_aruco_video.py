@@ -51,6 +51,7 @@ if ARUCO_DICT.get(args["type"], None) is None:
 print("[INFO] detecting '{}' tags...".format(args["type"]))
 arucoDict = cv2.aruco.Dictionary_get(ARUCO_DICT[args["type"]])
 arucoParams = cv2.aruco.DetectorParameters_create()
+arucoParams
 
 # initialize the video stream and allow the camera sensor to warm up
 print("[INFO] starting video stream...")
